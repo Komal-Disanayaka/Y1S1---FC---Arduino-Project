@@ -11,8 +11,6 @@
 #define FLOW_SENSOR_2_PIN 3
 // Define pins connected to the two flow sensors.
 
-volatile int flowCount = 0;
-volatile int flowCount2 = 0;
 // Variables to hold the flow pulse count, updated by interrupt.
 
 float flowRate = 0;
